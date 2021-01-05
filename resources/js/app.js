@@ -2,7 +2,7 @@ require('./bootstrap');
 
 require('moment');
 
-require('./components/Example')
+require('./components/App')
 
 import Vue from 'vue';
 
