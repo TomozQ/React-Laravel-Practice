@@ -1,17 +1,16 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 
 const App = () => {
     return(
         <>
-            <h1>Apparel</h1>
-            <h2>Inventory Control</h2>
+            This is App Component from React
         </>
     )
 }
 
 export default App
 
-if (document.getElementById('root')) {
-    ReactDOM.render(<App />, document.getElementById('root'));
+if (document.getElementById('react')) {
+    ReactDOM.render(<App />, document.getElementById('react'))
 }
