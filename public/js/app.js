@@ -109721,7 +109721,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 
-__webpack_require__(/*! ./components/App */ "./resources/js/components/App.jsx");
+__webpack_require__(/*! ./components/Top */ "./resources/js/components/Top.jsx");
 
 
 
@@ -109796,9 +109796,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/App.jsx":
+/***/ "./resources/js/components/Top.jsx":
 /*!*****************************************!*\
-  !*** ./resources/js/components/App.jsx ***!
+  !*** ./resources/js/components/Top.jsx ***!
   \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -109812,14 +109812,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var App = function App() {
+var Top = function Top() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Apparel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Inventory Control"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (App);
+/* harmony default export */ __webpack_exports__["default"] = (Top);
 
 if (document.getElementById('root')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('root'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Top, null), document.getElementById('root'));
 }
 
 /***/ }),

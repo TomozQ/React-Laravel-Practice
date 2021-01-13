@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
-const App = () => {
+const Top = () => {
     return(
         <>
             <h1>Apparel</h1>
@@ -10,8 +10,8 @@ const App = () => {
     )
 }
 
-export default App
+export default Top
 
 if (document.getElementById('root')) {
-    ReactDOM.render(<App />, document.getElementById('root'));
+    ReactDOM.render(<Top />, document.getElementById('root'))
 }
