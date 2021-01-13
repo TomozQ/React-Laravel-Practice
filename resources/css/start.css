@@ -1,0 +1,12 @@
+.start_spot{
+    width: 100%;
+    height: calc(100vh - 120px);
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.link_to_start{
+    display: block;
+}

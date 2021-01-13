@@ -4,6 +4,8 @@ require('moment');
 
 require('./components/Top')
 
+require('./components/App')
+
 import Vue from 'vue';
 
 import { InertiaApp } from '@inertiajs/inertia-vue';

@@ -191,6 +191,7 @@
                 </div>
             </div>
         </nav>
+        <div id="react"></div>
 
         <!-- Page Heading -->
         <header class="bg-white shadow">
