@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Navigation from './Navigation'
+import StartWork from './StartWork'
 
 const App = () => {
     return(
         <>
-            This is App Component from React
+            <Navigation />
+            <StartWork />
         </>
     )
 }
