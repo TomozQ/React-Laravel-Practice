@@ -2,19 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Navigation = () => {
-    
     return(
-            <nav>
-                <ul>
-                    <Link to='/sample'>
-                        <li>sample</li>
-                    </Link>
-                    <Link to='/test'>
-                        <li>test</li>
-                    </Link>
-                </ul>
-            </nav>
-        ) 
+        <nav>
+            <ul>
+                <Link to="/return">
+                    <li>先頭に戻る</li>
+                </Link>
+                <Link to="/instock">
+                    <li>入庫処理</li>
+                </Link>
+            </ul>
+        </nav>
+    )
 }
 
 export default Navigation
