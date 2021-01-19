@@ -6,10 +6,10 @@ const Navigation = () => {
         <nav>
             <ul className='nav-ul'>
                 <Link to="/">
-                    <li className='nav-li'>始める</li>
+                    <li className='nav-li'>Get started</li>
                 </Link>
                 <Link to="/instock">
-                    <li className='nav-li'>入庫処理</li>
+                    <li className='nav-li'>Warehousing</li>
                 </Link>
             </ul>
         </nav>
