@@ -18,6 +18,7 @@
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased">
+        @yield('header')
         <div id='react'></div>
     </body>
 </html>

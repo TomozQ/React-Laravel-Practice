@@ -1,5 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import './index.css';
 @import './top.css';
 @import './start.css';
+@import './header.css';
+@import './nav.css';
+@import './startwork.css';
