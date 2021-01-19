@@ -113197,10 +113197,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var InStock = function InStock() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "subjectTitle"
+    className: "screen-title-space"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subject"
-  }, "\u5165\u5EAB\u51E6\u7406\u753B\u9762"));
+    className: "screen-title"
+  }, "Arrival processing screen"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (InStock);
@@ -113233,7 +113233,7 @@ var Navigation = function Navigation() {
     to: "/instock"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-li"
-  }, "Warehousing"))));
+  }, "Arrival"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);

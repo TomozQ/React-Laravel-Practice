@@ -9,7 +9,7 @@ const Navigation = () => {
                     <li className='nav-li'>Get started</li>
                 </Link>
                 <Link to="/instock">
-                    <li className='nav-li'>Warehousing</li>
+                    <li className='nav-li'>Arrival</li>
                 </Link>
             </ul>
         </nav>

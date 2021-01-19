@@ -3,3 +3,12 @@
     background-color: #eeebe7;
     min-height: 100vh;
 }
+.screen-title-space{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h1.screen-title{
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+}
