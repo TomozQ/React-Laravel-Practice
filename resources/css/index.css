@@ -1,4 +1,5 @@
 #react{
     padding-top: 100px;
     background-color: #eeebe7;
+    min-height: 100vh;
 }

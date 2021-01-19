@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 const Navigation = () => {
     return(
         <nav>
-            <ul>
-                <Link to="/return">
-                    <li>先頭に戻る</li>
+            <ul className='nav-ul'>
+                <Link to="/">
+                    <li className='nav-li'>始める</li>
                 </Link>
                 <Link to="/instock">
-                    <li>入庫処理</li>
+                    <li className='nav-li'>入庫処理</li>
                 </Link>
             </ul>
         </nav>

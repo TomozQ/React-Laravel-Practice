@@ -12,7 +12,7 @@ const App = () => {
             <React.Fragment>
                 <Navigation />
                 <Switch>
-                    <Route path="/return" component={ StartWork } />
+                    <Route path="/" exact component={ StartWork } />
                     <Route path="/instock" component={ InStock } />
                 </Switch>
             </React.Fragment>

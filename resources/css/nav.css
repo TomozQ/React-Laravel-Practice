@@ -1,0 +1,13 @@
+ul.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background: linear-gradient(#9e4a45, #c7827e, #9e4a45);
+}
+li.nav-li{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
