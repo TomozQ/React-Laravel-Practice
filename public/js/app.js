@@ -113158,6 +113158,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navigation */ "./resources/js/components/Navigation.jsx");
 /* harmony import */ var _InStock__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./InStock */ "./resources/js/components/InStock.jsx");
 /* harmony import */ var _StartWork__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./StartWork */ "./resources/js/components/StartWork.jsx");
+/* harmony import */ var _GoodsIssue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./GoodsIssue */ "./resources/js/components/GoodsIssue.jsx");
+
 
 
 
@@ -113173,12 +113175,40 @@ var App = function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/instock",
     component: _InStock__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/goodsissue",
+    component: _GoodsIssue__WEBPACK_IMPORTED_MODULE_6__["default"]
   })))));
 };
 
 if (document.getElementById('react')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('react'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/GoodsIssue.jsx":
+/*!************************************************!*\
+  !*** ./resources/js/components/GoodsIssue.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var GoodsIssue = function GoodsIssue() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "screen-title-space"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "screen-title"
+  }, "Goods issue processing screen"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (GoodsIssue);
 
 /***/ }),
 
@@ -113233,7 +113263,15 @@ var Navigation = function Navigation() {
     to: "/instock"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-li"
-  }, "Arrival"))));
+  }, "Arrival")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/goodsissue"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-li"
+  }, "Goods issue")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/dashboard"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-li"
+  }, "DashBoard"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
